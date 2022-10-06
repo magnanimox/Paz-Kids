@@ -237,6 +237,11 @@ header .backnav-gray {
     margin-top: 12px;
 }
 
+.clone {
+    width: 100%;
+    display: none;
+}
+
 .prog-month {
     width: 100%;
     height: auto;
