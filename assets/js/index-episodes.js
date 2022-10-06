@@ -1,7 +1,3 @@
-// Universal Shortcuts
-const c = (el) => document.querySelector(el);
-const cs = (el) => document.querySelectorAll(el);
-
 // Dayjs configs
 dayjs.locale("pt-br");
 dayjs.extend(window.dayjs_plugin_isBetween);
