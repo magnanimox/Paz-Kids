@@ -242,6 +242,14 @@ header .backnav-gray {
     display: none;
 }
 
+.aventura-biblica.mrg-top:first-child {
+    margin-top: 0px;
+}
+
+.aventura-biblica.mrg-top {
+    margin-top: 36px;
+}
+
 .prog-month {
     width: 100%;
     height: auto;
