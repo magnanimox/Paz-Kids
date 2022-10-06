@@ -63,9 +63,9 @@ function getCurrentTpEpisode(episodesTp) {
         // Convert date in dayjs
         const episodeDate = dayjs(data.showAt);
         // Get date of start period
-        const start = episodeDate.subtract(4, "day").format("YYYY/MM/DD");
+        const start = episodeDate.subtract(3, "day").format("YYYY/MM/DD");
         // Get date of end period
-        const end = episodeDate.add(2, "day").format("YYYY/MM/DD");
+        const end = episodeDate.add(3, "day").format("YYYY/MM/DD");
         // init
         let showThisEpisode = false;
         // logic
