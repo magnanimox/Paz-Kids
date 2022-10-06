@@ -15,7 +15,7 @@ const getEpisodesAb = async () => {
 getEpisodesAb().then((episodesAb) => {
     window.episodesAb = episodesAb;
 
-    window.episodesAb.forEach((item, index) => {
+    window.episodesAb.forEach((item) => {
         let episodeCard = c(".section-area .aventura-biblica").cloneNode(true);
 
         episodeCard.querySelector("#thumb img").src = item.img;
