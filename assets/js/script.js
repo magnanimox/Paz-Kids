@@ -5,6 +5,7 @@ const cs = (el) => document.querySelectorAll(el);
 // Dayjs configs
 dayjs.locale("pt-br");
 dayjs.extend(window.dayjs_plugin_isBetween);
+
 // Shortcuts
 window.today = dayjs();
 window.month = dayjs().month();
