@@ -237,6 +237,11 @@ header .backnav-gray {
     margin-top: 12px;
 }
 
+.episodes-append-tp1 {
+    width: 100%;
+    margin-top: 12px;
+}
+
 .clone {
     width: 100%;
     display: none;
@@ -247,6 +252,14 @@ header .backnav-gray {
 }
 
 .aventura-biblica.mrg-top {
+    margin-top: 36px;
+}
+
+.terra-prometida.mrg-top:first-child {
+    margin-top: 0px;
+}
+
+.terra-prometida.mrg-top {
     margin-top: 36px;
 }
 
