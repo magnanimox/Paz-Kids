@@ -232,12 +232,9 @@ header .backnav-gray {
     margin-top: 55px;
 }
 
-#cardEp-Aventura:first-child {
-    margin-top: 0;
-}
-
-#cardEp-Aventura {
-    margin-top: 30px;
+.episodes-append {
+    width: 100%;
+    margin-top: 12px;
 }
 
 .prog-month {
@@ -703,6 +700,10 @@ svg {
     .break-space,
     .ft-area {
         max-width: 100%;
+    }
+
+    .episodes-append {
+        width: 100%;
     }
 
     .nav-bar--login {
