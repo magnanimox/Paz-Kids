@@ -739,6 +739,11 @@ form [type="submit"] {
     cursor: pointer;
 }
 
+form [type="submit"]:hover {
+    transition: all 0.15s;
+    background-color: #5172ac;
+}
+
 .login-p {
     color: #000;
     font-size: 14px;
