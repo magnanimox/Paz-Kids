@@ -73,9 +73,16 @@
                         </defs>
                     </svg>
                 </div>
+                <?php
+                if(isset($_SESSION["nao_autenticado"])):
+                ?>
                 <div class="notification">
                     <p>Login e/ou senha inválidos.</p>
                 </div>
+                <?php
+                endif;
+                unset($_SESSION["nao_autenticado"]);
+                ?>
                 <form action="load.php" method="POST">
                     <input
                         name="user"
