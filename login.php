@@ -17,9 +17,9 @@ $row  = mysqli_num_rows($result);
 
 if (row == 1){
     $_SESSION["user"] = $user;
-    header("Location: login.html");
+    header("Location: painel.php");
     exit();
 } else {
-    header("Location: index.html");
+    header("Location: login.html");
     exit();
 }
