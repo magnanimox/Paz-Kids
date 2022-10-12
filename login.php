@@ -73,6 +73,9 @@
                         </defs>
                     </svg>
                 </div>
+                <div class="notification">
+                    <p>Login ou senha inválidos.</p>
+                </div>
                 <form action="load.php" method="POST">
                     <input
                         name="user"
