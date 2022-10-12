@@ -9,7 +9,7 @@ if(empty($_POST["user"]) || empty($_POST["password"])) {
 $user = mysqli_real_escape_string($conexao, $_POST["user"]);
 $password = mysqli_real_escape_string($conexao, $_POST["password"]);
 
-$query = "select user_id, user from usuario where user = {$user} and password = md5({$password})";
+$query = "SELECT user_id, user FROM usuario WHERE user = {$user} AND password = md5({$password})";
 
 $result = mysqli_query($conexao, $query);
 
