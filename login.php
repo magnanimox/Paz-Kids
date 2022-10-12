@@ -1,4 +1,5 @@
 <?php
+session_start();
 include("conexao.php");
 
 if(empty($_POST["user"]) || empty($_POST["password"])) {
