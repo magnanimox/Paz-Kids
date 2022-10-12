@@ -1,3 +1,5 @@
 <?php
 session_start();
-print_r($_SESSION);exit;
+?>
+
+<h2><?php echo $_SESSION["usuario"]; ?></h2>
