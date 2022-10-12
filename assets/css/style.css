@@ -692,7 +692,7 @@ svg {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #e2e9f1;
+    background-color: #9ac1d1;
     width: 420px;
     height: 500px;
     padding: 35px;
@@ -732,7 +732,7 @@ input::placeholder {
 form [type="submit"] {
     display: block;
     color: #fff;
-    background-color: #2f5ba5;
+    background-color: #44798d;
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 600;
@@ -756,7 +756,7 @@ form [type="submit"]:hover {
 }
 
 .login-page {
-    background-color: #2f5ba5;
+    background-color: #c0e9f9;
 }
 
 /* MEDIAS */
