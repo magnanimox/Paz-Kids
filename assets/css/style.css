@@ -745,14 +745,18 @@ form [type="submit"]:hover {
 }
 
 .login-p {
-    color: #000;
+    color: #fff;
     font-size: 14px;
     margin-top: 43px;
 }
 
 .login-p a {
     text-decoration: none;
-    color: #2f5ba5;
+    color: #44798d;
+}
+
+.login-p a:hover {
+    color: #5395ad;
 }
 
 .login-page {
