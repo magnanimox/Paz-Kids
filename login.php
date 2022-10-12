@@ -80,7 +80,7 @@ session_start();
                 <?php
                 if(isset($_SESSION["nao_autenticado"])):
                 ?>
-                <div class="notification">
+                <div class="notification danger">
                     <p>Login e/ou senha inválidos.</p>
                 </div>
                 <?php
