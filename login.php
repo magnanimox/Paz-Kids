@@ -15,7 +15,7 @@ $result = mysqli_query($conexao, $query);
 
 $row  = mysqli_num_rows($result);
 
-if (row == 1){
+if ($row == 1){
     $_SESSION["user"] = $user;
     header("Location: painel.php");
     exit();
