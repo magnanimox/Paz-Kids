@@ -2,7 +2,7 @@
 include("conexao.php");
 
 if(empty($_POST["user"]) || empty($_POST["password"])) {
-    header("Location: index.html");
+    header("Location: login.html");
     exit();
 }
 
@@ -15,4 +15,11 @@ $result = mysqli_query($conexao, $query);
 
 $row  = mysqli_num_rows($result);
 
-echo $row;exit;
+if (row == 1){
+    $_SESSION["user"] = $user;
+    header("Location: login.html");
+    exit();
+} else {
+    header("Location: index.html");
+    exit();
+}
