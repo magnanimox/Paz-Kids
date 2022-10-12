@@ -769,6 +769,9 @@ form [type="submit"]:hover {
     justify-content: center;
     margin-top: 16px;
     width: 100%;
+}
+
+.notification.danger {
     background: rgb(255 0 0 / 78%);
     color: #ffffff;
 }
