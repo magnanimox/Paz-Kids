@@ -74,7 +74,7 @@
                     </svg>
                 </div>
                 <div class="notification">
-                    <p>Login ou senha inválidos.</p>
+                    <p>Login e/ou senha inválidos.</p>
                 </div>
                 <form action="load.php" method="POST">
                     <input
