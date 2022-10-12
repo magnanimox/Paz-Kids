@@ -741,7 +741,7 @@ form [type="submit"] {
 
 form [type="submit"]:hover {
     transition: all 0.15s;
-    background-color: #5172ac;
+    background-color: #5395ad;
 }
 
 .login-p {
