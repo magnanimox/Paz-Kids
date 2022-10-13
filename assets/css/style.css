@@ -785,12 +785,14 @@ form [type="submit"]:hover {
 }
 
 .notification.is-sucess {
+    display: none;
     background: rgba(0, 255, 98, 0.78);
     color: #ffffff;
     border-radius: 8px;
 }
 
 .notification.is-info {
+    display: none;
     background: rgba(0, 183, 255, 0.78);
     color: #ffffff;
     border-radius: 8px;
