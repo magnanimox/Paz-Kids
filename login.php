@@ -104,7 +104,7 @@ session_start();
                     <input type="submit" value="Entrar" />
                 </form>
                 <p class="login-p">
-                    Ainda não tem uma conta? <a href="#">Criar conta</a>
+                    Ainda não tem uma conta? <a href="registration.php">Criar conta</a>
                 </p>
             </div>
         </section>
