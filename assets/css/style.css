@@ -777,6 +777,18 @@ form [type="submit"]:hover {
     border-radius: 8px;
 }
 
+.notification.is-sucess {
+    background: rgba(0, 255, 98, 0.78);
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+.notification.is-info {
+    background: rgba(0, 183, 255, 0.78);
+    color: #ffffff;
+    border-radius: 8px;
+}
+
 .notification p {
     padding: 10px;
 }

@@ -77,16 +77,13 @@ session_start();
                         </defs>
                     </svg>
                 </div>
-                <?php
-                if(isset($_SESSION["nao_autenticado"])):
-                ?>
-                <div class="notification">
-                    <p>Login e/ou senha inválidos.</p>
+                <div class="notification is-sucess">
+                    <p>Cadastro efetuado!</p>
+                    <p>Faça o login informando o seu usuário e senha <a href="login.php">aqui</a></p>
                 </div>
-                <?php
-                endif;
-                unset($_SESSION["nao_autenticado"]);
-                ?>
+                <div class="notification is-info">
+                    <p>O usuário escolhido já existe. Informe outro e tente novamente.</p>
+                </div>
                 <form action="load.php" method="POST">
                     <input
                         name="user"
