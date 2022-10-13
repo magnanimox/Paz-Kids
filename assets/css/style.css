@@ -774,6 +774,7 @@ form [type="submit"]:hover {
 .notification.danger {
     background: rgb(255 0 0 / 78%);
     color: #ffffff;
+    border-radius: 8px;
 }
 
 .notification p {
