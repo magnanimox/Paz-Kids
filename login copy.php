@@ -1,7 +1,3 @@
-<?php
-session_start();
-?>
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -77,17 +73,10 @@ session_start();
                         </defs>
                     </svg>
                 </div>
-                <?php
-                if(isset($_SESSION["nao_autenticado"])):
-                ?>
                 <div class="notification danger">
                     <p>Login e/ou senha inválidos.</p>
                 </div>
-                <?php
-                endif;
-                unset($_SESSION["nao_autenticado"]);
-                ?>
-                <form action="load.php" method="POST">
+                <form action="" method="POST">
                     <input
                         name="user"
                         type="text"
@@ -104,7 +93,7 @@ session_start();
                     <input type="submit" value="Entrar" />
                 </form>
                 <p class="login-p">
-                    Ainda não tem uma conta? <a href="registration.php">Criar conta</a>
+                    Ainda não tem uma conta? <a href="">Criar conta</a>
                 </p>
             </div>
         </section>
